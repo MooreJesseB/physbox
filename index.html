@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<script src="http://code.jquery.com/jquery.min.js"></script>
+		<script src="scripts/physicsjs/physicsjs-full-0.6.0.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="./public/styles/styles.css">
+		<!-- Latest compiled and minified CSS -->
+	  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+	  <!-- Optional theme -->
+	  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+	  <script language="javascript" type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+	  <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div class="tint">
+			<div class="header tint"></div>
+			<div class="iconbar tint">
+				<div class="col-lg-1"></div>
+
+				<div class="col-lg-4">
+					<li class="buttonbar">
+						<button class="iconbutton bombbutton toggle">
+							<img src="./public/images/bomb.png">
+						</button>
+						<button class="iconbutton boxbutton toggle">
+							<img src="./public/images/box.png">
+						</button>
+						<button class="iconbutton rainbutton">
+							<img src="./public/images/rain.png">
+						</button>
+						<button class="iconbutton eraserbutton">
+							<img src="./public/images/eraser_icon.png">
+						</button>
+						
+					</li>
+				</div>
+				<div class="col-lg-4"><h1 class="title">PHYSBOX</h1></div>
+			</div>
+		</div>
+		<div class="header tint"></div>
+		<div class="container">
+			<button class="hideme">	
+				<canvas id="viewport">
+					<div id="block"></div>
+				</canvas>
+			</button>
+		</div>
+		<script type="text/javascript" src="index.js"></script>
+	</body>
+</html>
